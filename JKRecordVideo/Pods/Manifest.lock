@@ -1,0 +1,24 @@
+PODS:
+  - JKSwiftExtension (1.1.2):
+    - Kingfisher
+    - SnapKit
+  - Kingfisher (4.10.1)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - JKSwiftExtension
+
+SPEC REPOS:
+  trunk:
+    - JKSwiftExtension
+    - Kingfisher
+    - SnapKit
+
+SPEC CHECKSUMS:
+  JKSwiftExtension: eb2b6202a98a8dffe77506789c22e0b28e57c217
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 4a7cb213e472e62e5a9d9142dc53933c6b5a53fd
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844603D125B52C1F00D942AA /* TradeCACertificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844603D025B52C1F00D942AA /* TradeCACertificationViewController.swift */; };
+		848A447E25AED98C003EA5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A447D25AED98C003EA5E5 /* AppDelegate.swift */; };
+		848A448225AED98C003EA5E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A448125AED98C003EA5E5 /* ViewController.swift */; };
+		848A448525AED98C003EA5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A448325AED98C003EA5E5 /* Main.storyboard */; };
+		848A448725AED98D003EA5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A448625AED98D003EA5E5 /* Assets.xcassets */; };
+		848A448A25AED98D003EA5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A448825AED98D003EA5E5 /* LaunchScreen.storyboard */; };
+		848A449525AED98E003EA5E5 /* JKRecordVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A449425AED98E003EA5E5 /* JKRecordVideoTests.swift */; };
+		848A44A025AED98E003EA5E5 /* JKRecordVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A449F25AED98E003EA5E5 /* JKRecordVideoUITests.swift */; };
+		84C8CB2425BA95FA001AA1FB /* TradeCACertificationPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8CB2325BA95FA001AA1FB /* TradeCACertificationPlayViewController.swift */; };
+		B517C9E4EDFC6BDACB3EA033 /* Pods_JKRecordVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4AF9EE76B26AEAF010976 /* Pods_JKRecordVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848A449125AED98E003EA5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848A447225AED98C003EA5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848A447925AED98C003EA5E5;
+			remoteInfo = JKRecordVideo;
+		};
+		848A449C25AED98E003EA5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848A447225AED98C003EA5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848A447925AED98C003EA5E5;
+			remoteInfo = JKRecordVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0167620A3E18ED89AA3F6FBE /* Pods-JKRecordVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKRecordVideo.debug.xcconfig"; path = "Target Support Files/Pods-JKRecordVideo/Pods-JKRecordVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		02F0A926D20B91CE2EB1AFD5 /* Pods-JKRecordVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKRecordVideo.release.xcconfig"; path = "Target Support Files/Pods-JKRecordVideo/Pods-JKRecordVideo.release.xcconfig"; sourceTree = "<group>"; };
+		844603D025B52C1F00D942AA /* TradeCACertificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeCACertificationViewController.swift; sourceTree = "<group>"; };
+		844603DD25B52CD200D942AA /* JKRecordVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKRecordVideo-Bridging-Header.h"; sourceTree = "<group>"; };
+		848A447A25AED98C003EA5E5 /* JKRecordVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRecordVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A447D25AED98C003EA5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848A448125AED98C003EA5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848A448425AED98C003EA5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848A448625AED98D003EA5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848A448925AED98D003EA5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848A448B25AED98D003EA5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A449025AED98E003EA5E5 /* JKRecordVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRecordVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A449425AED98E003EA5E5 /* JKRecordVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRecordVideoTests.swift; sourceTree = "<group>"; };
+		848A449625AED98E003EA5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A449B25AED98E003EA5E5 /* JKRecordVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRecordVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A449F25AED98E003EA5E5 /* JKRecordVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRecordVideoUITests.swift; sourceTree = "<group>"; };
+		848A44A125AED98E003EA5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C8CB2325BA95FA001AA1FB /* TradeCACertificationPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeCACertificationPlayViewController.swift; sourceTree = "<group>"; };
+		96C4AF9EE76B26AEAF010976 /* Pods_JKRecordVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKRecordVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848A447725AED98C003EA5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B517C9E4EDFC6BDACB3EA033 /* Pods_JKRecordVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A448D25AED98E003EA5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A449825AED98E003EA5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848A447125AED98C003EA5E5 = {
+			isa = PBXGroup;
+			children = (
+				848A447C25AED98C003EA5E5 /* JKRecordVideo */,
+				848A449325AED98E003EA5E5 /* JKRecordVideoTests */,
+				848A449E25AED98E003EA5E5 /* JKRecordVideoUITests */,
+				848A447B25AED98C003EA5E5 /* Products */,
+				FF1DB6567E2CAFC4F589812D /* Pods */,
+				B48FD559E841565535E73F26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848A447B25AED98C003EA5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848A447A25AED98C003EA5E5 /* JKRecordVideo.app */,
+				848A449025AED98E003EA5E5 /* JKRecordVideoTests.xctest */,
+				848A449B25AED98E003EA5E5 /* JKRecordVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848A447C25AED98C003EA5E5 /* JKRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				848A447D25AED98C003EA5E5 /* AppDelegate.swift */,
+				848A448125AED98C003EA5E5 /* ViewController.swift */,
+				844603D025B52C1F00D942AA /* TradeCACertificationViewController.swift */,
+				84C8CB2325BA95FA001AA1FB /* TradeCACertificationPlayViewController.swift */,
+				848A448325AED98C003EA5E5 /* Main.storyboard */,
+				848A448625AED98D003EA5E5 /* Assets.xcassets */,
+				848A448825AED98D003EA5E5 /* LaunchScreen.storyboard */,
+				848A448B25AED98D003EA5E5 /* Info.plist */,
+				844603DD25B52CD200D942AA /* JKRecordVideo-Bridging-Header.h */,
+			);
+			path = JKRecordVideo;
+			sourceTree = "<group>";
+		};
+		848A449325AED98E003EA5E5 /* JKRecordVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				848A449425AED98E003EA5E5 /* JKRecordVideoTests.swift */,
+				848A449625AED98E003EA5E5 /* Info.plist */,
+			);
+			path = JKRecordVideoTests;
+			sourceTree = "<group>";
+		};
+		848A449E25AED98E003EA5E5 /* JKRecordVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848A449F25AED98E003EA5E5 /* JKRecordVideoUITests.swift */,
+				848A44A125AED98E003EA5E5 /* Info.plist */,
+			);
+			path = JKRecordVideoUITests;
+			sourceTree = "<group>";
+		};
+		B48FD559E841565535E73F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C4AF9EE76B26AEAF010976 /* Pods_JKRecordVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1DB6567E2CAFC4F589812D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0167620A3E18ED89AA3F6FBE /* Pods-JKRecordVideo.debug.xcconfig */,
+				02F0A926D20B91CE2EB1AFD5 /* Pods-JKRecordVideo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848A447925AED98C003EA5E5 /* JKRecordVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A44A425AED98E003EA5E5 /* Build configuration list for PBXNativeTarget "JKRecordVideo" */;
+			buildPhases = (
+				37DC2029670FCD1BA6814AEF /* [CP] Check Pods Manifest.lock */,
+				848A447625AED98C003EA5E5 /* Sources */,
+				848A447725AED98C003EA5E5 /* Frameworks */,
+				848A447825AED98C003EA5E5 /* Resources */,
+				CFE3F29B7CF19DD375BAC59C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRecordVideo;
+			productName = JKRecordVideo;
+			productReference = 848A447A25AED98C003EA5E5 /* JKRecordVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848A448F25AED98E003EA5E5 /* JKRecordVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A44A725AED98E003EA5E5 /* Build configuration list for PBXNativeTarget "JKRecordVideoTests" */;
+			buildPhases = (
+				848A448C25AED98E003EA5E5 /* Sources */,
+				848A448D25AED98E003EA5E5 /* Frameworks */,
+				848A448E25AED98E003EA5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848A449225AED98E003EA5E5 /* PBXTargetDependency */,
+			);
+			name = JKRecordVideoTests;
+			productName = JKRecordVideoTests;
+			productReference = 848A449025AED98E003EA5E5 /* JKRecordVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848A449A25AED98E003EA5E5 /* JKRecordVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A44AA25AED98E003EA5E5 /* Build configuration list for PBXNativeTarget "JKRecordVideoUITests" */;
+			buildPhases = (
+				848A449725AED98E003EA5E5 /* Sources */,
+				848A449825AED98E003EA5E5 /* Frameworks */,
+				848A449925AED98E003EA5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848A449D25AED98E003EA5E5 /* PBXTargetDependency */,
+			);
+			name = JKRecordVideoUITests;
+			productName = JKRecordVideoUITests;
+			productReference = 848A449B25AED98E003EA5E5 /* JKRecordVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848A447225AED98C003EA5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					848A447925AED98C003EA5E5 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					848A448F25AED98E003EA5E5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 848A447925AED98C003EA5E5;
+					};
+					848A449A25AED98E003EA5E5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 848A447925AED98C003EA5E5;
+					};
+				};
+			};
+			buildConfigurationList = 848A447525AED98C003EA5E5 /* Build configuration list for PBXProject "JKRecordVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848A447125AED98C003EA5E5;
+			productRefGroup = 848A447B25AED98C003EA5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848A447925AED98C003EA5E5 /* JKRecordVideo */,
+				848A448F25AED98E003EA5E5 /* JKRecordVideoTests */,
+				848A449A25AED98E003EA5E5 /* JKRecordVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848A447825AED98C003EA5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A448A25AED98D003EA5E5 /* LaunchScreen.storyboard in Resources */,
+				848A448725AED98D003EA5E5 /* Assets.xcassets in Resources */,
+				848A448525AED98C003EA5E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A448E25AED98E003EA5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A449925AED98E003EA5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37DC2029670FCD1BA6814AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKRecordVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE3F29B7CF19DD375BAC59C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKRecordVideo/Pods-JKRecordVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKRecordVideo/Pods-JKRecordVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JKRecordVideo/Pods-JKRecordVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848A447625AED98C003EA5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C8CB2425BA95FA001AA1FB /* TradeCACertificationPlayViewController.swift in Sources */,
+				848A448225AED98C003EA5E5 /* ViewController.swift in Sources */,
+				844603D125B52C1F00D942AA /* TradeCACertificationViewController.swift in Sources */,
+				848A447E25AED98C003EA5E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A448C25AED98E003EA5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A449525AED98E003EA5E5 /* JKRecordVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A449725AED98E003EA5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A44A025AED98E003EA5E5 /* JKRecordVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848A449225AED98E003EA5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848A447925AED98C003EA5E5 /* JKRecordVideo */;
+			targetProxy = 848A449125AED98E003EA5E5 /* PBXContainerItemProxy */;
+		};
+		848A449D25AED98E003EA5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848A447925AED98C003EA5E5 /* JKRecordVideo */;
+			targetProxy = 848A449C25AED98E003EA5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848A448325AED98C003EA5E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A448425AED98C003EA5E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848A448825AED98D003EA5E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A448925AED98D003EA5E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848A44A225AED98E003EA5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848A44A325AED98E003EA5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848A44A525AED98E003EA5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0167620A3E18ED89AA3F6FBE /* Pods-JKRecordVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGVDL6B99N;
+				INFOPLIST_FILE = JKRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.cn.JKRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JKRecordVideo/JKRecordVideo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848A44A625AED98E003EA5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F0A926D20B91CE2EB1AFD5 /* Pods-JKRecordVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGVDL6B99N;
+				INFOPLIST_FILE = JKRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.cn.JKRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JKRecordVideo/JKRecordVideo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		848A44A825AED98E003EA5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGVDL6B99N;
+				INFOPLIST_FILE = JKRecordVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.cn.JKRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRecordVideo.app/JKRecordVideo";
+			};
+			name = Debug;
+		};
+		848A44A925AED98E003EA5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGVDL6B99N;
+				INFOPLIST_FILE = JKRecordVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.cn.JKRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRecordVideo.app/JKRecordVideo";
+			};
+			name = Release;
+		};
+		848A44AB25AED98E003EA5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGVDL6B99N;
+				INFOPLIST_FILE = JKRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.cn.JKRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKRecordVideo;
+			};
+			name = Debug;
+		};
+		848A44AC25AED98E003EA5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGVDL6B99N;
+				INFOPLIST_FILE = JKRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.cn.JKRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKRecordVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848A447525AED98C003EA5E5 /* Build configuration list for PBXProject "JKRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A44A225AED98E003EA5E5 /* Debug */,
+				848A44A325AED98E003EA5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A44A425AED98E003EA5E5 /* Build configuration list for PBXNativeTarget "JKRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A44A525AED98E003EA5E5 /* Debug */,
+				848A44A625AED98E003EA5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A44A725AED98E003EA5E5 /* Build configuration list for PBXNativeTarget "JKRecordVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A44A825AED98E003EA5E5 /* Debug */,
+				848A44A925AED98E003EA5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A44AA25AED98E003EA5E5 /* Build configuration list for PBXNativeTarget "JKRecordVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A44AB25AED98E003EA5E5 /* Debug */,
+				848A44AC25AED98E003EA5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848A447225AED98C003EA5E5 /* Project object */;
+}
